@@ -1,0 +1,9 @@
+import { sendEmail } from "./utils/sendEmail.js";
+
+await sendEmail(
+  "your-email@gmail.com",
+  "BuildPilot AI Test",
+  "<h1>Hello!</h1><p>Your email system is working.</p>"
+);
+
+console.log("Email sent!");
